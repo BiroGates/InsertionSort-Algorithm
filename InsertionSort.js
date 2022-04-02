@@ -26,4 +26,3 @@ function insertionSort(arr){
     }
     return arr;
 }
-console.log(insertionSort([7,8,5,2,4,6]));
