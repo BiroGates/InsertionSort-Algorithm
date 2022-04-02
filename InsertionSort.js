@@ -11,8 +11,7 @@ function insertionSort(arr){
             firstTemp = arr[i + 1];
             arr[i + 1] = arr[i]
             arr[i] = firstTemp;
-            // Veruficando se o elemento que acabei de pega é menor que o anterio a ele
-            // e assim em diante
+            // Veruficando se o elemento que acabei de pegar é menor que o anterior a ele e assim em diante
             for(let j = i; j >= 0; j--){   
                 secondeTemp = arr[j];
                 // Se for verdade eu faço mais um swap;
